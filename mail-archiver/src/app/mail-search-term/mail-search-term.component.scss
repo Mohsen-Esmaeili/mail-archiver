@@ -1,0 +1,42 @@
+.search-term{
+    width: 300;
+    padding-top: 10px;
+    .search-icon{
+        height: 60px;
+
+        img{
+            width: 20px;
+        }
+    }
+    
+    .form-field-wrapper {
+        position: relative;
+        height: 60px;
+
+        .calender-icon{
+            width: 20px;
+        }
+
+        input {
+            text-align: center;
+        }
+
+        .custom-field {
+            width: 100%;
+            margin-bottom: 4px;
+            height: 60px;
+        }
+
+        .icon-check-valid {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+        }
+    }
+
+    .form-btn-wrapper {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+}
